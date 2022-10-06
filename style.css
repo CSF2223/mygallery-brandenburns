@@ -1,24 +1,24 @@
 /*
 Color Palette:
-background color:  
-font color:        
-secondary color:   
-tertiary color:    
+background color:  #F7ECDE
+font color:   #CDC2AE    
+secondary color:   #9ED2C6
+tertiary color:  #54BAB9  
 */
 
 /*
 Color Palette: 
-background color: #3A3845
-font color: #F7CCAC  
-secondary color: #C69B7B
-tertiary color: #826F66
+background color: #F7ECDE
+font color: #CDC2AE    
+secondary color: #9ED2C6
+tertiary color: #54BAB9  
 */
 
 /* CSS syntax notes:
     selector {property: value;}
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Condensed:wght@700&display=swap');
 
 html {
     font-size: 62.5%; /* Default font size is 16px, 62.5% of 16 is 10px. 1 rem (relative unit) now will be equivalent to 10px.*/
@@ -28,9 +28,9 @@ header {
     margin: 0 4rem;
     letter-spacing: 0.8rem;
     text-align: center;
-    border-bottom: 1px solid #826F66;
-    border-right: 1px solid #826F66;
-    border-left: 1px solid #826F66;
+    border-bottom: 1px solid #54BAB9  ;
+    border-right: 1px solid #54BAB9  ;
+    border-left: 1px solid #54BAB9  ;
     padding: 0.5rem;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
@@ -38,9 +38,9 @@ header {
 }
 
 body{
-    background-color: #3A3845;
-    color: #F7CCAC;
-    font-family: 'Open Sans', sans-serif;
+    background-color: #F7ECDE;
+    color: #CDC2AE  ;
+    font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
 }
 
@@ -69,11 +69,11 @@ p {
 
 .imageCard a {
     text-decoration: none;
-    color: #826F66;
+    color: #54BAB9  ;
 }
 
 .cardText {
-    color: #C69B7B;
+    color: #9ED2C6;
     text-align: center;
     padding: 2rem;
     border-radius: 30px;
